@@ -2,8 +2,11 @@ package com.liuhao.mall.member.model;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
+import javax.persistence.Table;
+import java.io.Serializable;
 
-public class Member {
+@Table(name = "member")
+public class Member implements Serializable {
     @Id
     private Long id;
     private String name;
@@ -12,6 +15,14 @@ public class Member {
     private String createDate;
 
     public Member() {
+    }
+
+    public Member(Long id) {
+        this.id = id;
+    }
+
+    public Member(String mobile) {
+        this.mobile = mobile;
     }
 
     public Member(Long id, String name, String mobile, String createDate) {

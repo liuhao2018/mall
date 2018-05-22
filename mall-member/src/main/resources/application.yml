@@ -9,3 +9,5 @@ spring:
 logging:
   level:
     com.liuhao.mall.member.mapper: trace
+server:
+  port: 8082

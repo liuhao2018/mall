@@ -7,7 +7,6 @@ import com.liuhao.mall.member.model.Member;
 import com.liuhao.mall.member.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import tk.mybatis.mapper.entity.Example;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,9 +36,10 @@ public class MemberServiceImpl implements MemberService {
 
     @Override
     public Member findByMobile(String mobile) {
-        Example example = new Example(Member.class);
-        example.createCriteria().andEqualTo("mobile",mobile);
-        return memberMapper.selectOneByExample(example);
+        return memberMapper.selectOne(new Member(mobile));
+//        Example example = new Example(Member.class);
+//        example.createCriteria().andEqualTo("mobile",mobile);
+//        return memberMapper.selectOneByExample(example);
     }
 
     @Override

@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Class-Path: spring-jcl-5.0.6.RELEASE.jar spring-boot-starter-json-2.0.
+ 2.RELEASE.jar reactive-streams-1.0.2.jar spring-boot-starter-tomcat-2
+ .0.2.RELEASE.jar spring-data-commons-2.0.7.RELEASE.jar jboss-logging-
+ 3.3.2.Final.jar geronimo-j2ee-management_1.1_spec-1.0.1.jar snakeyaml
+ -1.19.jar hamcrest-core-1.3.jar maven-project-2.2.1.jar mybatis-sprin
+ g-1.3.1.jar backport-util-concurrent-3.1.jar plexus-container-default
+ -1.0-alpha-9-stable-1.jar spring-boot-2.0.2.RELEASE.jar jul-to-slf4j-
+ 1.7.25.jar mysql-connector-java-5.1.46.jar maven-plugin-registry-2.2.
+ 1.jar pagehelper-spring-boot-autoconfigure-1.2.3.jar mybatis-spring-b
+ oot-starter-1.3.1.jar hawtbuf-1.11.jar classmate-1.3.4.jar maven-sett
+ ings-2.2.1.jar plexus-utils-3.0.15.jar maven-profile-2.2.1.jar persis
+ tence-api-1.0.jar activemq-broker-5.15.3.jar activemq-client-5.15.3.j
+ ar netty-transport-4.1.24.Final.jar logback-classic-1.2.3.jar pagehel
+ per-5.1.2.jar spring-boot-devtools-2.0.2.RELEASE.jar spring-boot-star
+ ter-logging-2.0.2.RELEASE.jar javax.annotation-api-1.3.2.jar wagon-pr
+ ovider-api-1.0-beta-6.jar maven-artifact-manager-2.2.1.jar plexus-int
+ erpolation-1.11.jar spring-context-5.0.6.RELEASE.jar maven-model-2.2.
+ 1.jar spring-boot-starter-data-redis-2.0.2.RELEASE.jar spring-boot-st
+ arter-jdbc-2.0.2.RELEASE.jar mapper-spring-boot-starter-1.2.4.jar spr
+ ing-messaging-5.0.6.RELEASE.jar mapper-3.5.3.jar mapper-spring-boot-a
+ utoconfigure-1.2.4.jar pagehelper-spring-boot-starter-1.2.3.jar jacks
+ on-databind-2.9.5.jar mybatis-spring-boot-autoconfigure-1.3.1.jar tom
+ cat-embed-core-8.5.31.jar javax.jms-api-2.0.1.jar junit-4.12.jar jack
+ son-annotations-2.9.0.jar reactor-core-3.1.7.RELEASE.jar classworlds-
+ 1.1-alpha-2.jar activemq-openwire-legacy-5.15.3.jar guava-18.0.jar ne
+ tty-buffer-4.1.24.Final.jar spring-boot-starter-web-2.0.2.RELEASE.jar
+  spring-boot-starter-2.0.2.RELEASE.jar spring-data-keyvalue-2.0.7.REL
+ EASE.jar spring-expression-5.0.6.RELEASE.jar spring-boot-starter-acti
+ vemq-2.0.2.RELEASE.jar spring-data-redis-2.0.7.RELEASE.jar spring-web
+ -5.0.6.RELEASE.jar spring-tx-5.0.6.RELEASE.jar netty-handler-4.1.24.F
+ inal.jar spring-core-5.0.6.RELEASE.jar tomcat-embed-el-8.5.31.jar spr
+ ing-webmvc-5.0.6.RELEASE.jar spring-jms-5.0.6.RELEASE.jar jackson-dat
+ atype-jsr310-2.9.5.jar jackson-datatype-jdk8-2.9.5.jar spring-oxm-5.0
+ .6.RELEASE.jar mybatis-3.4.5.jar spring-beans-5.0.6.RELEASE.jar maven
+ -repository-metadata-2.2.1.jar logback-core-1.2.3.jar netty-common-4.
+ 1.24.Final.jar lettuce-core-5.0.4.RELEASE.jar spring-context-support-
+ 5.0.6.RELEASE.jar maven-artifact-2.2.1.jar HikariCP-2.7.9.jar spring-
+ aop-5.0.6.RELEASE.jar netty-codec-4.1.24.Final.jar hibernate-validato
+ r-6.0.9.Final.jar maven-deploy-plugin-2.8.2.jar jackson-module-parame
+ ter-names-2.9.5.jar jsqlparser-1.0.jar jackson-core-2.9.5.jar validat
+ ion-api-2.0.1.Final.jar log4j-api-2.10.0.jar log4j-to-slf4j-2.10.0.ja
+ r spring-jdbc-5.0.6.RELEASE.jar tomcat-embed-websocket-8.5.31.jar slf
+ 4j-api-1.7.25.jar netty-resolver-4.1.24.Final.jar maven-plugin-api-2.
+ 2.1.jar spring-boot-autoconfigure-2.0.2.RELEASE.jar
+Main-Class: com.liuhao.mall.base.BaseApplication
+
