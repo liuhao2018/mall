@@ -28,8 +28,7 @@ public class ScoreController {
     @GetMapping("/member/{id}")
     public ApiResponse memberSumScore(@PathVariable("id") Long id){
         ApiResponse apiResponse = new ApiResponse();
-        int sumScore = scoreService.memberSumScore(id);
-        apiResponse.setData(sumScore);
+        apiResponse.setData(scoreService.memberSumScore(id));
         return apiResponse;
     }
 
