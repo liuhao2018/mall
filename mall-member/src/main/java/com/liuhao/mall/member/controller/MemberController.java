@@ -1,6 +1,6 @@
 package com.liuhao.mall.member.controller;
 
-import com.liuhao.mall.base.model.ApiResponse;
+import com.liuhao.mall.member.model.ApiResponse;
 import com.liuhao.mall.member.model.Member;
 import com.liuhao.mall.member.model.MemberArrayWrapper;
 import com.liuhao.mall.member.service.MemberService;
