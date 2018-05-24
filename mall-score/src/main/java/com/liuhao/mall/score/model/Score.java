@@ -1,19 +1,21 @@
-package com.liuhao.mall.mall.score.model;
+package com.liuhao.mall.score.model;
 
 import javax.persistence.Column;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
+@Table(name = "score")
 public class Score {
     @Id
     private Long id;
     @Column(name = "member_id")
-    private String memberId;
+    private Long memberId;
     private int action;
 
     public Score() {
     }
 
-    public Score(Long id, String memberId, int action) {
+    public Score(Long id, Long memberId, int action) {
         this.id = id;
         this.memberId = memberId;
         this.action = action;
@@ -27,11 +29,11 @@ public class Score {
         this.id = id;
     }
 
-    public String getMemberId() {
+    public Long getMemberId() {
         return memberId;
     }
 
-    public void setMemberId(String memberId) {
+    public void setMemberId(Long memberId) {
         this.memberId = memberId;
     }
 

@@ -1,8 +1,8 @@
-package com.liuhao.mall.mall.score.controller;
+package com.liuhao.mall.score.controller;
 
-import com.liuhao.mall.mall.score.model.ApiResponse;
-import com.liuhao.mall.mall.score.model.Score;
-import com.liuhao.mall.mall.score.service.ScoreService;
+import com.liuhao.mall.score.model.ApiResponse;
+import com.liuhao.mall.score.model.Score;
+import com.liuhao.mall.score.service.ScoreService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,6 +15,7 @@ public class ScoreController {
 
     @PostMapping("/action")
     public ApiResponse action(@RequestBody Score score) {
+        System.out.println("test");
         ApiResponse apiResponse = new ApiResponse();
         int result = scoreService.action(score);
         if (result > 0) {

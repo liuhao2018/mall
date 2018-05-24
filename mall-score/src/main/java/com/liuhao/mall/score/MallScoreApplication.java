@@ -1,10 +1,10 @@
-package com.liuhao.mall.mall.score;
+package com.liuhao.mall.score;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import tk.mybatis.spring.annotation.MapperScan;
 
-@MapperScan(basePackages = "com.liuhao.mall.mall.score.mapper")
+@MapperScan(basePackages = "com.liuhao.mall.score.mapper")
 @SpringBootApplication
 public class MallScoreApplication {
 

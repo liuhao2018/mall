@@ -1,4 +1,4 @@
-package com.liuhao.mall.mall.score.model;
+package com.liuhao.mall.score.model;
 
 public class SumScore {
     private int total;

@@ -1,4 +1,4 @@
-package com.liuhao.mall.mall.score;
+package com.liuhao.mall.score;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
